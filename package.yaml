@@ -1,0 +1,22 @@
+name:                middle-string-reader
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/kana-sama/middle-string-reader#readme
+license:             BSD3
+author:              Andrei Krasnabayeu
+maintainer:          andrew4chrome@gmail.com
+copyright:           2018 Andrei Krasnabayeu
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - bytestring
+  - mmap
+
+executables:
+  middle-string-reader:
+    source-dirs:      src
+    main:             Main.hs
